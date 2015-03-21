@@ -1,0 +1,28 @@
+@import url('../../../../customizr/inc/css/rtl/green.min.css');
+
+
+.navbar-inner .row-fluid .site-description {
+	float: right;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.list-pages-shortcode {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+.navbar .btn-navbar {
+	float: right;
+}
+
+.social-block {
+	float: left;
+}
+
+a, menu-ancestor > a, .navbar-wrapper .navbar h2 {
+	color: #4CA253;
+}
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a {
+	color: #4CA253;
+}

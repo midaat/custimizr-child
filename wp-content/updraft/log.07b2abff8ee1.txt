@@ -1,0 +1,298 @@
+0000.000 (0) Opened log file at time: Wed, 28 Jan 2015 21:47:05 +0000 on http://dev.midaat.org.il
+0000.018 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.5.17 (Linux serv01.siteground182.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL:  Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 192M (used: 31.9M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.036 (0) Free space on disk containing Updraft's temporary directory: 859746.8 Mb
+0000.038 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.050 (0) Requesting semaphore lock (fd)
+0000.052 (0) Set semaphore last lock (fd) time to 2015-01-28 21:47:05
+0000.053 (0) Semaphore lock (fd) complete
+0000.058 (0) Backup run: resumption=0, nonce=07b2abff8ee1, begun at=1422481625 (0s ago), job type=backup
+0000.059 (0) Scheduling a resumption (1) after 300 seconds (1422481925) in case this run gets aborted
+0000.082 (0) Checking if we have a zip executable available
+0000.082 (0) Testing: /usr/bin/zip
+0000.089 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.091 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.099 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.100 (0) Stderr output: 
+0000.101 (0) Stderr output: 
+0000.101 (0) Stderr output: 
+0000.110 (0) Working binary zip found: /usr/bin/zip
+0000.111 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.112 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0000.670 (0) Total entities for the zip file: 309 directories, 2207 files (0 skipped as non-modified), 42.3 Mb
+0000.674 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.677 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.680 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.683 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.685 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.686 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 Mb, 2207 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.667 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: size is now: 2.40 Mb
+0002.678 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 600 files added (on-disk size: 2497 Kb)
+0002.681 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 700 files added (on-disk size: 2497 Kb)
+0002.684 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 800 files added (on-disk size: 2497 Kb)
+0002.687 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 900 files added (on-disk size: 2497 Kb)
+0002.690 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1000 files added (on-disk size: 2497 Kb)
+0002.691 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.7 Mb, 2207 files batched, 501 (1002) added so far); re-opening (prior size: 2497 Kb)
+0005.325 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: size is now: 9.20 Mb
+0005.339 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1100 files added (on-disk size: 9410.3 Kb)
+0005.342 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1200 files added (on-disk size: 9410.3 Kb)
+0005.345 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1300 files added (on-disk size: 9410.3 Kb)
+0005.348 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1400 files added (on-disk size: 9410.3 Kb)
+0005.351 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1500 files added (on-disk size: 9410.3 Kb)
+0005.351 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 Mb, 2207 files batched, 501 (1503) added so far); re-opening (prior size: 9410.3 Kb)
+0005.894 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1600 files added (on-disk size: 10612.2 Kb)
+0005.897 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1700 files added (on-disk size: 10612.2 Kb)
+0005.900 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1800 files added (on-disk size: 10612.2 Kb)
+0005.903 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 1900 files added (on-disk size: 10612.2 Kb)
+0005.906 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 2000 files added (on-disk size: 10612.2 Kb)
+0005.907 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 Mb, 2207 files batched, 501 (2004) added so far); re-opening (prior size: 10612.2 Kb)
+0007.147 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 2100 files added (on-disk size: 12338.3 Kb)
+0007.150 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: 2200 files added (on-disk size: 12338.3 Kb)
+0008.831 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip.tmp: size is now: 14.80 Mb
+0008.915 (0) Created plugins zip (0) - 15190.5 Kb in 8.8 s (1729.2 Kb/s) (SHA1 checksum: 612095ea7d97ef24019079597a00f64ab1d89216)
+0008.917 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0009.713 (0) Total entities for the zip file: 474 directories, 2026 files (0 skipped as non-modified), 33.6 Mb
+0009.717 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0009.720 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0009.723 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0009.726 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0009.729 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0009.730 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 Mb, 2026 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0010.882 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: size is now: 3.40 Mb
+0010.897 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 600 files added (on-disk size: 3487.8 Kb)
+0010.900 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 700 files added (on-disk size: 3487.8 Kb)
+0010.903 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 800 files added (on-disk size: 3487.8 Kb)
+0010.907 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 900 files added (on-disk size: 3487.8 Kb)
+0010.910 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1000 files added (on-disk size: 3487.8 Kb)
+0010.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 Mb, 2026 files batched, 501 (1002) added so far); re-opening (prior size: 3487.8 Kb)
+0012.128 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: size is now: 6.10 Mb
+0012.150 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1100 files added (on-disk size: 6251 Kb)
+0012.155 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1200 files added (on-disk size: 6251 Kb)
+0012.158 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1300 files added (on-disk size: 6251 Kb)
+0012.161 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1400 files added (on-disk size: 6251 Kb)
+0012.164 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1500 files added (on-disk size: 6251 Kb)
+0012.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.3 Mb, 2026 files batched, 501 (1503) added so far); re-opening (prior size: 6251 Kb)
+0014.700 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: size is now: 11.10 Mb
+0014.713 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1600 files added (on-disk size: 11345.5 Kb)
+0014.716 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1700 files added (on-disk size: 11345.5 Kb)
+0014.721 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1800 files added (on-disk size: 11345.5 Kb)
+0014.724 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 1900 files added (on-disk size: 11345.5 Kb)
+0014.727 (0) Zip: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: 2000 files added (on-disk size: 11345.5 Kb)
+0014.727 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 Mb, 2026 files batched, 501 (2004) added so far); re-opening (prior size: 11345.5 Kb)
+0015.655 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip.tmp: size is now: 14.90 Mb
+0015.841 (0) Created themes zip (0) - 15434.6 Kb in 6.9 s (2234.1 Kb/s) (SHA1 checksum: 7084fadfcb71e5647e179cb7f9bc7cd80e9babcb)
+0015.843 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0015.844 (0) Looking for candidates to back up in: /home/midaat82/public_html/dev/wp-content/uploads
+0015.845 (0) finding files: 2014: adding to list (1)
+0015.845 (0) finding files: 2015: adding to list (2)
+0015.846 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0015.885 (0) Total entities for the zip file: 4 directories, 14 files (0 skipped as non-modified), 0.1 Mb
+0015.952 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip.tmp: size is now: 0.10 Mb
+0015.956 (0) Created uploads zip (0) - 142.9 Kb in 0.1 s (1575.7 Kb/s) (SHA1 checksum: 5ec8088de1312bff2d9baf27ce7aa66eb25a27ac)
+0015.958 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.959 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0015.959 (0) Looking for candidates to back up in: /home/midaat82/public_html/dev/wp-content
+0015.960 (0) finding files: themes: skipping: this is the themes directory
+0015.961 (0) finding files: languages: adding to list (1)
+0015.961 (0) finding files: uploads: skipping: this is the uploads directory
+0015.962 (0) finding files: upgrade: skipping: excluded by options
+0015.968 (0) finding files: plugins: skipping: this is the plugins directory
+0015.968 (0) finding files: index.php: adding to list (2)
+0015.969 (0) finding files: updraft: skipping: this is the updraft directory
+0015.988 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 1.5 Mb
+0016.228 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip.tmp: size is now: 0.40 Mb
+0016.238 (0) Created others zip (0) - 432.9 Kb in 0.3 s (1708.7 Kb/s) (SHA1 checksum: 3c2e7e9bf244bfb53daf22128fb33d47d37f1d9a)
+0016.242 (0) Saving backup status to database (elements: 8)
+0016.246 (0) Beginning creation of database dump (WordPress DB)
+0016.247 (0) Testing: /usr/bin/mysqldump
+0016.271 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0016.415 (0) Table v2_options: Total expected rows (approximate): 309
+0016.450 (0) Table v2_options: Total rows added: 273 in 0.03 seconds
+0016.453 (0) Table v2_options: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_options.table.gz - 53.4 Kb)
+0016.474 (0) Table v2_users: Total expected rows (approximate): 1
+0016.480 (0) Table v2_users: Total rows added: 1 in 0.01 seconds
+0016.481 (0) Table v2_users: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_users.table.gz - 0.5 Kb)
+0016.504 (0) Table v2_usermeta: Total expected rows (approximate): 20
+0016.509 (0) Table v2_usermeta: Total rows added: 20 in 0.00 seconds
+0016.510 (0) Table v2_usermeta: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_usermeta.table.gz - 1.1 Kb)
+0016.544 (0) Table v2_commentmeta: Total expected rows (approximate): 0
+0016.546 (0) Table v2_commentmeta: Total rows added: 0 in 0.00 seconds
+0016.547 (0) Table v2_commentmeta: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_commentmeta.table.gz - 0.3 Kb)
+0016.576 (0) Table v2_comments: Total expected rows (approximate): 1
+0016.580 (0) Table v2_comments: Total rows added: 1 in 0.00 seconds
+0016.581 (0) Table v2_comments: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_comments.table.gz - 0.6 Kb)
+0016.627 (0) Table v2_links: Total expected rows (approximate): 0
+0016.630 (0) Table v2_links: Total rows added: 0 in 0.00 seconds
+0016.630 (0) Table v2_links: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_links.table.gz - 0.4 Kb)
+0016.667 (0) Table v2_postmeta: Total expected rows (approximate): 79
+0016.672 (0) Table v2_postmeta: Total rows added: 79 in 0.00 seconds
+0016.672 (0) Table v2_postmeta: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_postmeta.table.gz - 2.8 Kb)
+0016.698 (0) Table v2_posts: Total expected rows (approximate): 23
+0016.706 (0) Table v2_posts: Total rows added: 20 in 0.01 seconds
+0016.707 (0) Table v2_posts: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_posts.table.gz - 5.5 Kb)
+0016.727 (0) Table v2_term_relationships: Total expected rows (approximate): 5
+0016.730 (0) Table v2_term_relationships: Total rows added: 5 in 0.00 seconds
+0016.731 (0) Table v2_term_relationships: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_term_relationships.table.gz - 0.3 Kb)
+0016.749 (0) Table v2_term_taxonomy: Total expected rows (approximate): 2
+0016.752 (0) Table v2_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0016.752 (0) Table v2_term_taxonomy: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_term_taxonomy.table.gz - 0.4 Kb)
+0016.775 (0) Table v2_terms: Total expected rows (approximate): 2
+0016.778 (0) Table v2_terms: Total rows added: 2 in 0.00 seconds
+0016.778 (0) Table v2_terms: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_terms.table.gz - 0.4 Kb)
+0016.797 (0) Table v2_nf_objectmeta: Total expected rows (approximate): 51
+0016.801 (0) Table v2_nf_objectmeta: Total rows added: 51 in 0.00 seconds
+0016.802 (0) Table v2_nf_objectmeta: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_objectmeta.table.gz - 0.9 Kb)
+0016.825 (0) Table v2_nf_objects: Total expected rows (approximate): 3
+0016.828 (0) Table v2_nf_objects: Total rows added: 3 in 0.00 seconds
+0016.829 (0) Table v2_nf_objects: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_objects.table.gz - 0.3 Kb)
+0016.850 (0) Table v2_nf_relationships: Total expected rows (approximate): 3
+0016.856 (0) Table v2_nf_relationships: Total rows added: 3 in 0.00 seconds
+0016.859 (0) Table v2_nf_relationships: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_relationships.table.gz - 0.4 Kb)
+0016.889 (0) Table v2_ninja_forms: Total expected rows (approximate): 1
+0016.895 (0) Table v2_ninja_forms: Total rows added: 1 in 0.00 seconds
+0016.896 (0) Table v2_ninja_forms: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms.table.gz - 0.6 Kb)
+0016.913 (0) Table v2_ninja_forms_fav_fields: Total expected rows (approximate): 3
+0016.916 (0) Table v2_ninja_forms_fav_fields: Total rows added: 3 in 0.00 seconds
+0016.917 (0) Table v2_ninja_forms_fav_fields: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms_fav_fields.table.gz - 1.3 Kb)
+0016.948 (0) Table v2_ninja_forms_fields: Total expected rows (approximate): 5
+0016.950 (0) Table v2_ninja_forms_fields: Total rows added: 5 in 0.00 seconds
+0016.951 (0) Table v2_ninja_forms_fields: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms_fields.table.gz - 0.9 Kb)
+0016.989 (0) Table v2_relevanssi: Total expected rows (approximate): 357
+0017.015 (0) Table v2_relevanssi: Total rows added: 363 in 0.03 seconds
+0017.016 (0) Table v2_relevanssi: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi.table.gz - 3.4 Kb)
+0017.045 (0) Table v2_relevanssi_log: Total expected rows (approximate): 0
+0017.047 (0) Table v2_relevanssi_log: Total rows added: 0 in 0.00 seconds
+0017.047 (0) Table v2_relevanssi_log: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi_log.table.gz - 0.3 Kb)
+0017.067 (0) Table v2_relevanssi_stopwords: Total expected rows (approximate): 0
+0017.069 (0) Table v2_relevanssi_stopwords: Total rows added: 0 in 0.00 seconds
+0017.072 (0) Table v2_relevanssi_stopwords: finishing file (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi_stopwords.table.gz - 0.3 Kb)
+0017.075 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_options.table.gz (1/20): adding to final database dump
+0017.094 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_users.table.gz (2/20): adding to final database dump
+0017.095 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_usermeta.table.gz (3/20): adding to final database dump
+0017.096 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_commentmeta.table.gz (4/20): adding to final database dump
+0017.099 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_comments.table.gz (5/20): adding to final database dump
+0017.100 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_links.table.gz (6/20): adding to final database dump
+0017.101 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_postmeta.table.gz (7/20): adding to final database dump
+0017.103 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_posts.table.gz (8/20): adding to final database dump
+0017.105 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_term_relationships.table.gz (9/20): adding to final database dump
+0017.106 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_term_taxonomy.table.gz (10/20): adding to final database dump
+0017.107 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_terms.table.gz (11/20): adding to final database dump
+0017.107 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_objectmeta.table.gz (12/20): adding to final database dump
+0017.108 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_objects.table.gz (13/20): adding to final database dump
+0017.109 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_nf_relationships.table.gz (14/20): adding to final database dump
+0017.110 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms.table.gz (15/20): adding to final database dump
+0017.110 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms_fav_fields.table.gz (16/20): adding to final database dump
+0017.111 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_ninja_forms_fields.table.gz (17/20): adding to final database dump
+0017.112 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi.table.gz (18/20): adding to final database dump
+0017.115 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi_log.table.gz (19/20): adding to final database dump
+0017.115 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db-table-v2_relevanssi_stopwords.table.gz (20/20): adding to final database dump
+0017.116 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz: finished writing out complete database file (48 Kb)
+0017.120 (0) Total database tables backed up: 20 (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz, size: 70812, checksum (SHA1): 3e10b3959434c9d6c28b7d2bac19b54a739c49af)
+0017.121 (0) Saving backup history
+0017.124 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0017.124 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0017.125 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0017.125 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0017.126 (0) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.127 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0017.129 (0) Cloud backup selection: dropbox
+0017.130 (0) Beginning dispatch of backup to remote (dropbox)
+0017.130 (0) Dropbox: begin cloud upload
+0017.134 (0) Dropbox: access gained
+0017.575 (0) Dropbox quota usage: normal=577.6 Mb, shared=0 Mb, total=2048 Mb, available=1470.4 Mb
+0017.576 (0) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip
+0019.204 (0) Dropbox chunked upload: 6.7 % uploaded (VWMprPQgnJuRz60RQt0ysg, 1048576)
+0020.944 (0) Dropbox chunked upload: 13.5 % uploaded (VWMprPQgnJuRz60RQt0ysg, 2097152)
+0022.608 (0) Dropbox chunked upload: 20.2 % uploaded (VWMprPQgnJuRz60RQt0ysg, 3145728)
+0025.624 (0) Dropbox chunked upload: 27 % uploaded (VWMprPQgnJuRz60RQt0ysg, 4194304)
+0026.690 (0) Dropbox chunked upload: 33.7 % uploaded (VWMprPQgnJuRz60RQt0ysg, 5242880)
+0028.217 (0) Dropbox chunked upload: 40.4 % uploaded (VWMprPQgnJuRz60RQt0ysg, 6291456)
+0029.607 (0) Dropbox chunked upload: 47.2 % uploaded (VWMprPQgnJuRz60RQt0ysg, 7340032)
+0031.499 (0) Dropbox chunked upload: 53.9 % uploaded (VWMprPQgnJuRz60RQt0ysg, 8388608)
+0032.639 (0) Dropbox chunked upload: 60.7 % uploaded (VWMprPQgnJuRz60RQt0ysg, 9437184)
+0034.262 (0) Dropbox chunked upload: 67.4 % uploaded (VWMprPQgnJuRz60RQt0ysg, 10485760)
+0036.780 (0) Dropbox chunked upload: 74.2 % uploaded (VWMprPQgnJuRz60RQt0ysg, 11534336)
+0038.841 (0) Dropbox chunked upload: 80.9 % uploaded (VWMprPQgnJuRz60RQt0ysg, 12582912)
+0040.469 (0) Dropbox chunked upload: 87.6 % uploaded (VWMprPQgnJuRz60RQt0ysg, 13631488)
+0041.840 (0) Dropbox chunked upload: 94.4 % uploaded (VWMprPQgnJuRz60RQt0ysg, 14680064)
+0043.305 (0) Dropbox chunked upload: 100 % uploaded (VWMprPQgnJuRz60RQt0ysg, 15555101)
+0044.851 (0) Recording as successfully uploaded: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip (c3c18d1e60b9ac2f851ffc1fe1186e72)
+0044.859 (0) Deleting local file: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip: OK
+0044.860 (0) Dropbox: File upload success (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip): 15190 Kb in 27s (556 Kb/s)
+0045.245 (0) Dropbox quota usage: normal=592.5 Mb, shared=0 Mb, total=2048 Mb, available=1455.5 Mb
+0045.246 (0) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip
+0599.710 (1) Opened log file at time: Wed, 28 Jan 2015 21:57:05 +0000 on http://dev.midaat.org.il
+0599.711 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.5.17 (Linux serv01.siteground182.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL:  Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 192M (used: 25.9M | 26.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0599.727 (1) Free space on disk containing Updraft's temporary directory: 859731.9 Mb
+0599.729 (1) Backup run: resumption=1, nonce=07b2abff8ee1, begun at=1422481625 (600s ago), job type=backup, previous check-in=43.3s
+0599.730 (1) Scheduling a resumption (2) after 300 seconds (1422482525) in case this run gets aborted
+0599.739 (1) Checking if we have a zip executable available
+0599.739 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0599.740 (1) Creation of backups of directories: already finished
+0599.741 (1) Saving backup status to database (elements: 8)
+0599.743 (1) Database dump (WordPress DB): Creation was completed already
+0599.745 (1) Saving backup history
+0599.747 (1) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-plugins.zip: plugins: This file has already been successfully uploaded
+0599.748 (1) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0599.748 (1) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0599.749 (1) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0599.749 (1) backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0599.750 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0599.751 (1) Cloud backup selection: dropbox
+0599.753 (1) Beginning dispatch of backup to remote (dropbox)
+0599.754 (1) Dropbox: begin cloud upload
+0599.758 (1) Dropbox: access gained
+0600.172 (1) Dropbox quota usage: normal=592.5 Mb, shared=0 Mb, total=2048 Mb, available=1455.5 Mb
+0600.173 (1) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip
+0601.279 (1) Dropbox chunked upload: 6.6 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 1048576)
+0603.270 (1) Dropbox chunked upload: 13.3 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 2097152)
+0604.754 (1) Dropbox chunked upload: 19.9 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 3145728)
+0606.966 (1) Dropbox chunked upload: 26.5 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 4194304)
+0608.213 (1) Dropbox chunked upload: 33.2 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 5242880)
+0609.641 (1) Dropbox chunked upload: 39.8 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 6291456)
+0611.364 (1) Dropbox chunked upload: 46.4 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 7340032)
+0613.307 (1) Dropbox chunked upload: 53.1 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 8388608)
+0614.509 (1) Dropbox chunked upload: 59.7 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 9437184)
+0616.446 (1) Dropbox chunked upload: 66.3 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 10485760)
+0618.326 (1) Dropbox chunked upload: 73 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 11534336)
+0620.459 (1) Dropbox chunked upload: 79.6 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 12582912)
+0622.160 (1) Dropbox chunked upload: 86.2 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 13631488)
+0623.801 (1) Dropbox chunked upload: 92.9 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 14680064)
+0625.553 (1) Dropbox chunked upload: 99.5 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 15728640)
+0626.798 (1) Dropbox chunked upload: 100 % uploaded (zuSeVmYq3rH6wxdSry9xQg, 15804998)
+0629.926 (1) Recording as successfully uploaded: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip (851e60864e28ec0fefcdb0d9ca58d107)
+0629.934 (1) Deleting local file: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip: OK
+0629.934 (1) Dropbox: File upload success (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-themes.zip): 15434 Kb in 29s (518 Kb/s)
+0630.501 (1) Dropbox quota usage: normal=607.6 Mb, shared=0 Mb, total=2048 Mb, available=1440.4 Mb
+0630.502 (1) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip
+0631.396 (1) Dropbox chunked upload: 100 % uploaded (Qj52hzmq7mibb1IEI2pdEA, 146287)
+0632.565 (1) Recording as successfully uploaded: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip (4e04d31211bfaeffa9a00c2da154ce56)
+0632.568 (1) Deleting local file: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip: OK
+0632.569 (1) Dropbox: File upload success (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-uploads.zip): 142 Kb in 2s (69 Kb/s)
+0632.954 (1) Dropbox quota usage: normal=607.7 Mb, shared=0 Mb, total=2048 Mb, available=1440.3 Mb
+0632.955 (1) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip
+0634.102 (1) Dropbox chunked upload: 100 % uploaded (WAwOw3AF3x4cg2mzfpUB6g, 443286)
+0636.281 (1) Recording as successfully uploaded: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip (9414146d6d1f362924330efdde299665)
+0636.284 (1) Deleting local file: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip: OK
+0636.284 (1) Dropbox: File upload success (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-others.zip): 432 Kb in 3s (130 Kb/s)
+0636.747 (1) Dropbox quota usage: normal=608.1 Mb, shared=0 Mb, total=2048 Mb, available=1439.9 Mb
+0636.763 (1) Dropbox: Attempt to upload: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz to: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz
+0637.490 (1) Dropbox chunked upload: 100 % uploaded (tLtYcYUbrz4Ulcdefrt_wg, 70812)
+0638.493 (1) Recording as successfully uploaded: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz (92090bae7cb85d38e7286f09d8d3564a)
+0638.495 (1) Deleting local file: backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz: OK
+0638.496 (1) Dropbox: File upload success (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz): 69 Kb in 1s (39 Kb/s)
+0638.498 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0638.498 (1) Number of backup sets in history: 1
+0638.501 (1) Examining backup set with datestamp: 1422481625 (Jan 28 2015 21:47:05)
+0638.501 (1) 1422481625: db: this set includes a database (backup_2015-01-28-2347_non_alpha_name_07b2abff8ee1-db.gz); db count is now 1
+0638.503 (1) 1422481625: this backup set remains non-empty (1/1); will retain in history
+0638.503 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0638.504 (1) Resume backup (07b2abff8ee1, 1): finish run
+0638.509 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0638.511 (1) Fetching RSS news feed
+0638.689 (1) Fetched RSS news feed; result is a: SimplePie
+0638.692 (1) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 Kb) to: admin...
+0638.822 (1) The backup apparently succeeded and is now complete

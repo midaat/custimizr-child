@@ -20,7 +20,7 @@
   http://wordpress.org/support/topic/how-toenable-parent-links-in-menu-while-keeping-mobile-support
   ================================================================
 */
-/*
+
 ul.nav li.dropdown > ul.dropdown-menu {
 	padding-top: 10px;
 	margin: 0;
@@ -118,7 +118,17 @@ ul.dropdown-menu {
 		display: block;
 	}
 }
-
+/*
+@media (min-width: 980px) (min-height: 500px) {
+	footer {
+		position: fixed;
+		width: 100%;
+		bottom: 0px;
+	}
+}
+*/
+.widget-text {
+}
 
 #footer_two p {
 	text-align: right !important;
@@ -127,7 +137,7 @@ ul.dropdown-menu {
 .list-pages-shortcode li {
 	margin-bottom: 15px;
 }
-*/
+
 /* ======================================== */
 
 pre {
